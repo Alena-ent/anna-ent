@@ -47,8 +47,9 @@
                 @media only screen and (max-width: 1200px) {
                     height: 240px;
                 }
-                @media only screen and (max-width: 680px) {
+                @media only screen and (max-width: 1024px) {
                     height: 160px;
+                    border-radius: 24px;
                 }
                 @media only screen and (max-width: 550px) {
                     height: 120px;
@@ -92,6 +93,9 @@
             &:hover > *:not(:hover) {
                 opacity: 0.4;
             }
+            @media only screen and (max-width: 1024px) {
+                margin: 24px 0;
+            }
             @media only screen and (max-width: 680px) {
                 flex-flow: column;
                 a {
@@ -122,13 +126,10 @@
                         opacity: 1;
                     }
                     opacity: .4;
-                    margin: 4px 0;
-                    @media only screen and (max-width: 450px) {
-                        margin: 2px 0;
-                    }
+                    margin: 2px 0;
                     p {
                         text-align: center;
-                        @media only screen and (max-width: 450px) {
+                        @media only screen and (max-width: 1024px) {
                             font-size: 14px;
                         }
                     }

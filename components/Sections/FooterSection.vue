@@ -1,7 +1,7 @@
 <template>
     <div class="hero flex middle column">
         <div class="container flex column center">
-            <p class="big">Tento pořad vznikl jako Maledivská touha být Bocacciem při morové ráně.</p>
+            <p class="big">Tento pořad vznikl jako Maledivská touha dvou českých žen být Bocacciem při morové ráně.</p>
             <div class="podcast-info">
                 <div class="heading flex column center">
                     <img src="https://ik.imagekit.io/alexborecky/Alena/chcito/148245718_1688120781380575_1384373541382863612_n_WiV5ghkyK.jpg" alt="">
