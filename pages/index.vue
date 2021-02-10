@@ -2,19 +2,22 @@
   <div class="hero">
     <full-page ref="fullpage" :options="options" id="fullpage">
       <div class="section">
-        <hero-section />
+        <!-- <hero-section /> -->
+        <h2>This is test</h2>
       </div>
       <div class="section">
-        <about-section
+        <!-- <about-section
           :text="home.first"
           color="#8F01F8"
-        />
+        /> -->
+        <h2>This is test</h2>
       </div>
       <div class="section">
-        <about-section
+        <!-- <about-section
           :text="home.second"
           color="#29B7BC"
-        />
+        /> -->
+        <h2>This is test</h2>
       </div>
       <div class="section">
         <footer-section />
