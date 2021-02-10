@@ -1,5 +1,6 @@
 <template>
   <div class="hero">
+    <no-ssr>
     <full-page ref="fullpage" :options="options" id="fullpage">
       <div class="section">
         <!-- <hero-section /> -->
@@ -23,6 +24,7 @@
         <footer-section />
       </div>
     </full-page>
+    </no-ssr>
   </div>
 </template>
 
