@@ -36,7 +36,7 @@ export default {
   */
   plugins: [
     '~/plugins/uiKit.js',
-    { src: '~/plugins/fullpage.js', ssr: false }
+    { src: '~/plugins/fullpage', mode: 'client' }
   ],
   /*
   ** Nuxt.js dev-modules
@@ -49,13 +49,16 @@ export default {
  modules: [
   '@nuxtjs/style-resources',
   '@nuxt/content',
-  // 'nuxt-fullpage.js',
+  'nuxt-fullpage.js',
 ],
 
 styleResources: {
     scss: [
       '~/assets/scss/_colours.scss',
     ]
+},
+router: {
+  base: '/alena/'
 },
   /*
   ** Build configuration

@@ -13,6 +13,7 @@
   "dependencies": {
     "@nuxt/content": "^1.13.0",
     "nuxt": "^2.0.0",
+    "nuxt-fullpage.js": "^0.0.3",
     "vue-fullpage.js": "^0.1.6"
   },
   "devDependencies": {
