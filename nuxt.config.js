@@ -36,7 +36,7 @@ export default {
   */
   plugins: [
     '~/plugins/uiKit.js',
-    { src: '~/plugins/fullpage', mode: 'client' }
+    '~/plugins/fullpage.js',
   ],
   /*
   ** Nuxt.js dev-modules
