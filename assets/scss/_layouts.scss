@@ -1,5 +1,10 @@
 body {
     background-color: black;
+    min-height: -webkit-fill-available;
+}
+
+html {
+    height: -webkit-fill-available;
 }
 
 .hero {
