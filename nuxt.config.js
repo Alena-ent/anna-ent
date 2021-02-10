@@ -57,9 +57,9 @@ styleResources: {
       '~/assets/scss/_colours.scss',
     ]
 },
-router: {
-  base: '/alena/'
-},
+// router: {
+//   base: '/alena/'
+// },
   /*
   ** Build configuration
   */
