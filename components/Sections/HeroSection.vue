@@ -40,7 +40,6 @@
     .podcast-info {
         position: relative;
         height: 100vh;
-        min-height: -webkit-fill-available;
         .heading {
             img {
                 height: 320px;
