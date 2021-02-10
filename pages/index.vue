@@ -38,7 +38,7 @@ export default {
       options: {
         menu: '#menu',
         anchors: ['page1', 'page2', 'page3'],
-        // sectionsColor: ['#000000', '#000', '#0798ec']
+        sectionsColor: ['#000000', '#000', '#0798ec']
       },
     }
   }
