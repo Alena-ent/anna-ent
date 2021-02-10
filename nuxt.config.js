@@ -30,6 +30,7 @@ export default {
   css: [
     '~/assets/scss/_typography.scss',
     '~/assets/scss/_layouts.scss',
+    '~/assets/scss/viewport.sass',
   ],
   /*
   ** Plugins to load before mounting the App
