@@ -1,0 +1,79 @@
+* {
+    color: white;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+p, a {
+    letter-spacing: .4px;
+    font-size: 16px;
+    max-width: 680px;
+}
+
+p {
+    line-height: 24px;
+}
+
+h1 {
+    font-size: 8px;
+    margin: 24px 0;
+    max-width: 900px;
+    visibility: hidden;
+    @media only screen and (max-width: 650px) {
+        font-size: 56px;
+    }
+}
+
+h2 {
+    font-size: 48px;
+    margin: 16px 0;
+    @media only screen and (max-width: 450px) {
+        font-size: 40px;
+    }
+}
+
+h3 {
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 2px;
+    transition: .3s ease-in-out;
+}
+
+.type {
+    background: linear-gradient(142deg, $pod-green, $pod-yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 24px;
+    letter-spacing: 8px;
+    margin: 16px 0;
+}
+
+.big {
+    font-weight: 600;
+    font-size: 3em;
+    line-height: 80px;
+    color: white;
+    letter-spacing: 1px;
+    max-width: 100%;
+    @media only screen and (max-width: 1440px) {
+        font-size: 2.5em;
+        line-height: 64px;
+    }
+    @media only screen and (max-width: 960px) {
+        font-size: 2em;
+        line-height: 56px;
+    }
+    @media only screen and (max-width: 780px) {
+        font-size: 1.5em;
+        line-height: 48px;
+    }
+    @media only screen and (max-width: 550px) {
+        font-size: 1em;
+        line-height: 28px;
+    }
+}

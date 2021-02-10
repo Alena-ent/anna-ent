@@ -1,72 +1,47 @@
 <template>
-  <div class="container">
-    <div>
-      <logo />
-      <h1 class="title">
-        ChciTo
-      </h1>
-      <h2 class="subtitle">
-        Podcast Web
-      </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >
-          GitHub
-        </a>
+  <div class="hero">
+    <full-page ref="fullpage" :options="options" id="fullpage">
+      <div class="section">
+        <hero-section />
       </div>
-    </div>
+      <div class="section">
+        <about-section
+          :text="home.first"
+          color="#8F01F8"
+        />
+      </div>
+      <div class="section">
+        <about-section
+          :text="home.second"
+          color="#29B7BC"
+        />
+      </div>
+      <div class="section">
+        <footer-section />
+      </div>
+    </full-page>
   </div>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
 
 export default {
-  components: {
-    Logo
+  async asyncData({$content}) {
+        const home = await $content('home').fetch();
+        return {home}
+  },
+  data () {
+    return {
+      options: {
+        menu: '#menu',
+        anchors: ['page1', 'page2', 'page3'],
+        // sectionsColor: ['#000000', '#000', '#0798ec']
+      },
+    }
   }
 }
 </script>
 
-<style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
+<style lang="scss">
 
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
 </style>
