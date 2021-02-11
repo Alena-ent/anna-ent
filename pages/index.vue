@@ -1,8 +1,8 @@
 <template>
   <div class="hero">
-    <no-ssr>
+    <no-ssr class="desktop">
     <full-page ref="fullpage" :options="options" id="fullpage">
-      <div class="section">
+      <div class="section fp-auto-height-responsive">
         <hero-section />
       </div>
       <div class="section">
@@ -22,6 +22,18 @@
       </div>
     </full-page>
     </no-ssr>
+    <!-- <div class="mobile">
+      <hero-section />
+      <about-section
+          :text="home.first"
+          color="#8F01F8"
+        />
+        <about-section
+          :text="home.second"
+          color="#29B7BC"
+        />
+        <footer-section />
+    </div> -->
   </div>
 </template>
 
@@ -37,7 +49,8 @@ export default {
       options: {
         menu: '#menu',
         anchors: ['page1', 'page2', 'page3'],
-        sectionsColor: ['#000000', '#000', '#0798ec']
+        sectionsColor: ['#000000', '#000', '#0798ec'],
+        responsiveHeight: 840,
       },
     }
   }
