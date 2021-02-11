@@ -11,9 +11,9 @@
                 <p>Postelová talkshow, kam si zveme osobnosti, které nás na hypotetické rovině přitahují…do postele. <br> Podcast o sexu intimitě a duchovnu. <br> Formát, jaký jste ještě neslyšeli.</p>
             </div>
             <div class="buttons flex">
-                <a href="#"><img src="@/assets/images/apple.svg" alt=""></a>
-                <a href="#"><img src="@/assets/images/spotify.svg" alt=""></a>
-                <a href="#"><img src="@/assets/images/google.svg" alt=""></a>
+                <a target="_blank" href="#"><img src="@/assets/images/apple.svg" alt=""></a>
+                <a target="_blank" href="https://open.spotify.com/show/0sy9xy1Bbg6kD8ACEMHfBQ?si=1V8KtPyASR2fTxZ6cmVUkA"><img src="@/assets/images/spotify.svg" alt=""></a>
+                <a target="_blank" href="#"><img src="@/assets/images/google.svg" alt=""></a>
             </div>
             <div class="credits">
                 <ul class="flex column center">
