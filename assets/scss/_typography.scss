@@ -62,19 +62,19 @@ a {
     letter-spacing: 1px;
     max-width: 100%;
     @media only screen and (max-width: 1440px) {
-        font-size: 2.5em;
-        line-height: 64px;
+        font-size: 32px;
+        line-height: 48px;
     }
-    @media only screen and (max-width: 960px) {
-        font-size: 2em;
+    @media only screen and (max-width: 1024px) {
+        font-size: 32px;
         line-height: 56px;
     }
     @media only screen and (max-width: 780px) {
-        font-size: 1.5em;
+        font-size: 24px;
         line-height: 48px;
     }
-    @media only screen and (max-width: 550px) {
-        font-size: 1em;
-        line-height: 28px;
+    @media only screen and (max-width: 650px) {
+        font-size: 24px;
+        line-height: 40px;
     }
 }
