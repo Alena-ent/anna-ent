@@ -9,20 +9,20 @@
         <about-section
           :text="home.first"
           color="#8F01F8"
-          image1="https://ik.imagekit.io/alexborecky/Alena/chcito/v4_8_foo7cCdAJ.png"
+          image1=""
           image2="https://ik.imagekit.io/alexborecky/Alena/chcito/v9_2_lqap1mYpU.png"
           image3=""
-          image4="https://ik.imagekit.io/alexborecky/Alena/chcito/v4_9_OWlQ8wJQBkZB4.png"
+          image4=""
         />
       </div>
       <div class="section">
         <about-section
           :text="home.second"
           color="#29B7BC"
-          image1="https://ik.imagekit.io/alexborecky/Alena/chcito/v4_7_H6wkkMJx2tSU8.png"
-          image2="https://ik.imagekit.io/alexborecky/Alena/chcito/v6_2_DZ8_yGbLmY.png"
+          image1="https://ik.imagekit.io/alexborecky/Alena/chcito/v7_2_A8JO0jf1oNIvr.png"
+          image2=""
           image3=""
-          image4="https://ik.imagekit.io/alexborecky/Alena/chcito/v4_9_OWlQ8wJQBkZB4.png"
+          image4="https://ik.imagekit.io/alexborecky/Alena/chcito/v6_2_DZ8_yGbLmY.png"
         />
       </div>
       <div class="section">

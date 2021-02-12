@@ -37,7 +37,6 @@
             max-width: 240px;
             &:first-child {
                 top: 5%;
-                max-width: 120px;
             }
             &:nth-child(2) {
                 top: 100px;

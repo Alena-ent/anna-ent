@@ -37,7 +37,7 @@
 <style lang="scss" scoped>
 
 .hero {
-    background-image: url(https://ik.imagekit.io/alexborecky/Alena/chcito/background_MeH1b1hFgW_g.png);
+    background-image: url(https://ik.imagekit.io/alexborecky/Alena/chcito/background_copy_v5LgabgIFQ7I.png);
     background-position: center;
     background-size: cover;
     @media only screen and (max-width: 640px) {

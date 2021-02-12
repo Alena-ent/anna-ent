@@ -6,6 +6,7 @@
                 <div class="heading flex column center">
                     <img src="https://ik.imagekit.io/alexborecky/Alena/chcito/148245718_1688120781380575_1384373541382863612_n_WiV5ghkyK.jpg" alt="">
                     <p class="type">Podcast</p>
+                    <a href="mailto:chcitopodcast@gmail.com">chcitopodcast@gmail.com</a>
                 </div>
                 <div class="buttons flex">
                     <!-- <a target="_blank" href="#"><img src="@/assets/images/apple.svg" alt=""></a> -->
@@ -59,6 +60,14 @@
                 z-index: -1;
                 left: 40px;
                 top: 40px;
+            }
+            a {
+                margin: 16px 0;
+                font-size: 24px;
+                font-weight: 600;
+                @media only screen and (max-width: 550px) {
+                    font-size: 16px;
+                }
             }
         }
         .description {
