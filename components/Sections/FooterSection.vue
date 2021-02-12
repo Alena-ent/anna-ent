@@ -10,7 +10,7 @@
                 <div class="buttons flex">
                     <!-- <a target="_blank" href="#"><img src="@/assets/images/apple.svg" alt=""></a> -->
                     <a target="_blank" href="https://open.spotify.com/show/0sy9xy1Bbg6kD8ACEMHfBQ?si=ubPy7k9rQ8G1i1yef4v5aQ"><img src="@/assets/images/spotify.svg" alt=""></a>
-                    <!-- <a target="_blank" href="#"><img src="@/assets/images/google.svg" alt=""></a> -->
+                    <a target="_blank" href="https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkLnBvZGJlYW4uY29tL2NoY2l0by9mZWVkLnhtbA?sa=X&ved=0CAYQrrcFahcKEwiQkczr2-TuAhUAAAAAHQAAAAAQAQ&fbclid=IwAR3lzMyYKcEQubN6sWQ3sk9GIIpiaBXZlXbPUHrKWjLulTiXcvXYfCCOUWA"><img src="@/assets/images/google.svg" alt=""></a>
                 </div>
                 <div class="description">
                     <p>©2021 All rights reserved.  Designed and developed by Alex borecky</p>
