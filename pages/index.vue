@@ -21,7 +21,7 @@
           color="#29B7BC"
           image1="https://ik.imagekit.io/alexborecky/Alena/chcito/v4_7_H6wkkMJx2tSU8.png"
           image2="https://ik.imagekit.io/alexborecky/Alena/chcito/v6_2_DZ8_yGbLmY.png"
-          image3="https://ik.imagekit.io/alexborecky/Alena/chcito/v13_2_pQd_dkQqWyE0.png"
+          image3="https://ik.imagekit.io/alexborecky/Alena/chcito/v7_2_A8JO0jf1oNIvr.png"
           image4="https://ik.imagekit.io/alexborecky/Alena/chcito/v4_9_OWlQ8wJQBkZB4.png"
         />
       </div>
