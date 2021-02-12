@@ -9,7 +9,7 @@
                 </div>
                 <div class="buttons flex">
                     <!-- <a target="_blank" href="#"><img src="@/assets/images/apple.svg" alt=""></a> -->
-                    <a target="_blank" href="https://open.spotify.com/show/0sy9xy1Bbg6kD8ACEMHfBQ?si=1V8KtPyASR2fTxZ6cmVUkA"><img src="@/assets/images/spotify.svg"><img src="@/assets/images/spotify.svg" alt=""></a>
+                    <a target="_blank" href="https://open.spotify.com/show/0sy9xy1Bbg6kD8ACEMHfBQ?si=ubPy7k9rQ8G1i1yef4v5aQ"><img src="@/assets/images/spotify.svg" alt=""></a>
                     <!-- <a target="_blank" href="#"><img src="@/assets/images/google.svg" alt=""></a> -->
                 </div>
                 <div class="description">
@@ -71,6 +71,7 @@
             }
         }
         .buttons {
+            justify-content: center;
             a {
                 margin: 0 12px;
                 img {
