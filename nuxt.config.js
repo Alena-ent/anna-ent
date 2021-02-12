@@ -5,15 +5,15 @@ export default {
   ** Headers of the page
   */
   head: {
-    title: process.env.npm_package_name || '',
+    title: 'Chci to | Podcast o sexu intimitě a duchovnu',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' },
       { property: 'og:type', content: 'home page'},
-      { property: 'og:url', content: 'https://czechcon.cz'},
-      { property: 'og:title', content: 'Czechcon.cz - Posíláme nové značky do světa' },
-      { property: 'og:image', content: 'https://ik.imagekit.io/alexborecky/CzechCon/ogImage_dC66EPX5MP.png' },
+      { property: 'og:url', content: 'https://chcito.cz'},
+      { property: 'og:title', content: 'Chci to Podcast - Podcast o sexu intimitě a duchovnu' },
+      { property: 'og:image', content: 'https://ik.imagekit.io/alexborecky/Alena/chcito/ogImage-min__AgfWC3Vo2ljt.png' },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
