@@ -110,15 +110,16 @@
                 a {
                     margin: 12px 0;
                 }
-                margin: 24px;
+                margin: 24px 0;
             }
             @media only screen and (max-width: 550px) {
                 flex-flow: column;
+                width: 120px;
                 a {
                     margin: 8px 0;
-                    width: 160px;
+                    width: 100%;
                     img {
-                        height: 32px;
+                        max-height: auto;
                         border-radius: 0;
                         width: 100%;
                     }
