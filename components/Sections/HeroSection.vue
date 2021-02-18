@@ -11,16 +11,17 @@
                 <p>Postelová talkshow, kam si zveme osobnosti, které nás na hypotetické rovině přitahují…do postele. <br> Podcast o sexu intimitě a duchovnu. <br> Formát, jaký jste ještě neslyšeli.</p>
             </div>
             <div class="buttons flex">
-                <!-- <a target="_blank" href="#"><img src="@/assets/images/apple.svg" alt=""></a> -->
+                <a target="_blank" href="https://podcasts.apple.com/us/podcast/chci-to/id1552635186?itsct=podcast_box&itscg=30200"><img src="~/assets/images/badge.png" alt=""></a>
                 <a target="_blank" href="https://open.spotify.com/show/0sy9xy1Bbg6kD8ACEMHfBQ?si=1V8KtPyASR2fTxZ6cmVUkA"><img src="@/assets/images/spotify.svg" alt=""></a>
                 <a target="_blank" href="https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkLnBvZGJlYW4uY29tL2NoY2l0by9mZWVkLnhtbA?sa=X&ved=0CAYQrrcFahcKEwiQkczr2-TuAhUAAAAAHQAAAAAQAQ&fbclid=IwAR3lzMyYKcEQubN6sWQ3sk9GIIpiaBXZlXbPUHrKWjLulTiXcvXYfCCOUWA"><img src="@/assets/images/google.svg" alt=""></a>
             </div>
             <div class="credits">
                 <ul class="flex column center">
                 <li><p>Moderují: Eliška Soukupová a Alena Doláková</p></li>
-                <li><p>MUA: Veronika Milá, Líčírna Organics</p></li>
-                <li><p>Znělka: Šimon Holý</p></li>
-                <li><p>Fotografie: Bára Lazorczyková</p></li>
+                <!-- <li><p>MUA: Veronika Milá (Líčírna Organics)</p></li> -->
+                <li><p>Znělka: Šimon Holý, Zvuk: Kuba Ruschka</p></li>
+                <!-- <li><p>Zvuk: Kuba Ruschka</p></li> -->
+                <li><p>Fotografie: Bára Lazarczyková, MUA: Veronika Milá (Líčírna Organics)</p></li>
                 </ul>
             </div>
             </div>
@@ -89,9 +90,11 @@
             }
         }
         .buttons {
+            flex-flow: row;
             a {
                 margin: 0 12px;
                 img {
+                    max-height: 40px;
                     transition: .3s ease-in-out;
                 }
             }
@@ -142,7 +145,7 @@
                 }
             }
             @media only screen and (max-width: 350px) {
-                display: none;
+                // display: none;
             }
         }
     }
