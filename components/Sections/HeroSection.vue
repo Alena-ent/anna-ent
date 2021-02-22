@@ -2,11 +2,11 @@
     <div class="hero">
         <div class="container">
             <div class="podcast-info flex middle column">
-            <div class="heading flex column center">
-                <h1>Chcito Podcast</h1>
-                <img src="https://ik.imagekit.io/alexborecky/Alena/chcito/148245718_1688120781380575_1384373541382863612_n_WiV5ghkyK.jpg" alt="">
-                <p class="type">Podcast</p>
-            </div>
+                <div class="heading flex column center">
+                    <h1>Chcito Podcast</h1>
+                    <img src="https://ik.imagekit.io/alexborecky/Alena/chcito/148245718_1688120781380575_1384373541382863612_n_WiV5ghkyK.jpg" alt="">
+                    <p class="type">Podcast</p>
+                </div>
             <div class="description">
                 <p>Postelová talkshow, kam si zveme osobnosti, které nás na hypotetické rovině přitahují…do postele. <br> Podcast o sexu intimitě a duchovnu. <br> Formát, jaký jste ještě neslyšeli.</p>
             </div>
@@ -49,18 +49,18 @@
         height: 100vh;
         .heading {
             img {
-                height: 320px;
+                height: 240px;
                 border-radius: 40px;
-                @media only screen and (max-width: 1200px) {
-                    height: 240px;
+                @media only screen and (max-width: 1440px) {
+                    height: 160px;
+                    border-radius: 16px;
                 }
                 @media only screen and (max-width: 1024px) {
-                    height: 160px;
-                    border-radius: 24px;
+                    height: 120px;
+                    border-radius: 16px;
                 }
                 @media only screen and (max-width: 550px) {
-                    height: 120px;
-                    border-radius: 24px;
+                    height: 100px;
                 }
             }
             h1 {
@@ -77,10 +77,10 @@
                 font-weight: 400;
                 line-height: 40px;
                 text-align: center;
-                @media only screen and (max-width: 1200px) {
+                @media only screen and (max-width: 1440px) {
                     font-size: 16px;
                     max-width: 480px;
-                    line-height: 32px;
+                    line-height: 24px;
                 }
                 @media only screen and (max-width: 550px) {
                     font-size: 14px;
@@ -124,7 +124,7 @@
                         width: 100%;
                     }
                 }
-                margin: 12px;
+                margin: 16px;
             }
         }
         .credits {
@@ -145,9 +145,9 @@
                     }
                 }
             }
-            @media only screen and (max-width: 350px) {
-                // display: none;
-            }
+            // @media only screen and (max-width: 350px) {
+            //     display: none;
+            // }
         }
     }
 }
