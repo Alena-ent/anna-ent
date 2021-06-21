@@ -100,14 +100,15 @@ const OFFSET = 60
             padding-left: 0;
             li {
                 list-style: none;
-                margin: 0 0 0 56px;
+                margin: 0 0 0 40px;
                 a {
                     color: rgba($color: #000000, $alpha: .8);
                     font-family: 'Raleway';
                     transition: .2s ease-in-out;
-                    letter-spacing: .4px;
+                    letter-spacing: .24px;
+                    font-weight: 600;
                     &:hover {
-                        color: rgba($color: black, $alpha: .4);
+                        color: $main-orange;
                     }
                 }
             }
@@ -135,11 +136,6 @@ const OFFSET = 60
             }
         }
     }
-}
-
-a.nuxt-link-exact-active {
-    font-weight: 700 !important;
-    color: rgba($color: #000000, $alpha: 1.0);
 }
 
 .colour {

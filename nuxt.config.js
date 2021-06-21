@@ -5,17 +5,17 @@ export default {
   ** Headers of the page
   */
   head: {
-    title: 'Chci to | Podcast o sexu intimitě a duchovnu',
+    title: 'anna Entertainment | Produkční společnost, umělecký management, hudební management',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' },
       { property: 'og:type', content: 'website'},
-      { property: 'og:description', content: 'Postelová talkshow, kam si zveme osobnosti, které nás na hypotetické rovině přitahují…do postele. Podcast o sexu intimitě a duchovnu. Formát, jaký jste ještě neslyšeli.'},
-      { property: 'og:url', content: 'https://chcito.cz'},
-      { property: 'og:title', content: 'Chci to Podcast - Podcast o sexu intimitě a duchovnu' },
-      { property: 'og:image:secure_url', content: 'https://ik.imagekit.io/alexborecky/Alena/chcito/ogImage-min__AgfWC3Vo2ljt.png' },
-      { property: 'og:image', content: 'https://ik.imagekit.io/alexborecky/Alena/chcito/ogImage-min__AgfWC3Vo2ljt.png' },
+      { property: 'og:description', content: 'Produkční společnost, umělecký management, hudební management'},
+      { property: 'og:url', content: 'https://annaent.cz'},
+      { property: 'og:title', content: 'anna Entertainment | Produkční společnost, umělecký management, hudební management' },
+      // { property: 'og:image:secure_url', content: 'https://ik.imagekit.io/alexborecky/Alena/chcito/ogImage-min__AgfWC3Vo2ljt.png' },
+      // { property: 'og:image', content: 'https://ik.imagekit.io/alexborecky/Alena/chcito/ogImage-min__AgfWC3Vo2ljt.png' },
       { property: 'og:image:type', content: 'image/png' },
     ],
     link: [
