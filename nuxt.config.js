@@ -14,8 +14,8 @@ export default {
       { property: 'og:description', content: 'Produkční společnost, umělecký management, hudební management'},
       { property: 'og:url', content: 'https://annaent.cz'},
       { property: 'og:title', content: 'anna Entertainment | Produkční společnost, umělecký management, hudební management' },
-      // { property: 'og:image:secure_url', content: 'https://ik.imagekit.io/alexborecky/Alena/chcito/ogImage-min__AgfWC3Vo2ljt.png' },
-      // { property: 'og:image', content: 'https://ik.imagekit.io/alexborecky/Alena/chcito/ogImage-min__AgfWC3Vo2ljt.png' },
+      { property: 'og:image:secure_url', content: 'https://ik.imagekit.io/alexborecky/Alena/Ent/ogImage_2kguK6a2S.jpg' },
+      { property: 'og:image', content: 'https://ik.imagekit.io/alexborecky/Alena/Ent/ogImage_2kguK6a2S.jpg' },
       { property: 'og:image:type', content: 'image/png' },
     ],
     link: [
