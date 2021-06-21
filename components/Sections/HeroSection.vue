@@ -4,7 +4,7 @@
             <div class="podcast-info flex middle column">
                 <div class="heading flex column center">
                     <h1>Chcito Podcast</h1>
-                    <img src="https://ik.imagekit.io/alexborecky/Alena/Ent/logo-temp_sNeE9d9OC.png" alt="">
+                    <img src="https://ik.imagekit.io/alexborecky/Alena/Ent/logo-final_ja1PomJDC.png" alt="">
                 </div>
             <div class="description">
                 <p>Oslavujeme příběhy vtipných, silných a jedinečných žen. Oslavujeme vás.</p> <br>

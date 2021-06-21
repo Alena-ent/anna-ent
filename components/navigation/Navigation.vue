@@ -2,9 +2,7 @@
     <div class="navigation full-width transition" :class="{'hidden-navbar': !showNavbar, colour: !transparent, scrolled: !scrolledNav}">
         <div class="container flex">
             <nuxt-link to="/" class="logo">
-                <div>
-                    <img src="https://ik.imagekit.io/alexborecky/Alena/Ent/logo-temp_sNeE9d9OC.png" alt="">
-                </div>
+                <img src="https://ik.imagekit.io/alexborecky/Alena/Ent/logo-final_ja1PomJDC.png" alt="">
             </nuxt-link>
             <ul class="flex center">
                 <li
@@ -82,8 +80,10 @@ const OFFSET = 60
         align-items: center;
         justify-content: space-between;
         .logo {
+            align-self: center;
             img {
                 max-height: 40px;
+                margin-top: 8px;
             }
             svg {
                 transition: .2s ease-in-out;

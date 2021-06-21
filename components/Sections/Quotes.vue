@@ -26,7 +26,7 @@
                         name: 'Reese Witherspoon'
                     },
                     {
-                        cs: 'Dost dlouo mi trvalo najít svůj hlas a teď když ho mohu požívat, tak nebudu zticha.',
+                        cs: 'Dost dlouo mi trvalo najít svůj hlas a teď když ho mohu používat, tak nebudu zticha.',
                         en: 'It took me quite a while to develop a voice and now that I have it, I am not going to be silent.',
                         name: 'Madelaine Albright'
                     },
