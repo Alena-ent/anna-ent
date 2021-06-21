@@ -50,6 +50,7 @@
             .text-content {
                 flex-flow: column;
             }
+            padding: 40px 0;
         }
     }
 }

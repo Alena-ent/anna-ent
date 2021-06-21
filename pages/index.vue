@@ -8,7 +8,7 @@
       />
       <about-section id="o-nas"/>
       <Quotes id="quotes" />
-      <footer-section />
+      <footer-section id="kontakty" />
   </div>
 </template>
 

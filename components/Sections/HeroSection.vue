@@ -60,6 +60,7 @@
             }
         }
         .description {
+            margin-top: 80px;
             p {
                 font-size: 24px;
                 letter-spacing: 1px;

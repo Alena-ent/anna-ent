@@ -44,7 +44,7 @@
 <style lang="scss" scoped>
 
 .hero {
-    background-color: $main-orange;
+    background-color: $sec-blue;
     .container {
         height: 100%;
         h2 {

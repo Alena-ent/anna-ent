@@ -195,11 +195,6 @@ const OFFSET = 10
   position: absolute;
 }
 
-.nuxt-link-exact-active {
-  color: black ;
-  font-weight: 800;
-}
-
 
 @media only screen and (max-width: 960px) {
     .mobile-nav {
