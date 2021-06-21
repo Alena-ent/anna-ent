@@ -4,26 +4,17 @@
             <div class="podcast-info flex middle column">
                 <div class="heading flex column center">
                     <h1>Chcito Podcast</h1>
-                    <img src="https://ik.imagekit.io/alexborecky/Alena/chcito/148245718_1688120781380575_1384373541382863612_n_WiV5ghkyK.jpg" alt="">
-                    <p class="type">Podcast</p>
+                    <img src="https://ik.imagekit.io/alexborecky/Alena/Ent/logo-temp_sNeE9d9OC.png" alt="">
                 </div>
             <div class="description">
-                <p>Postelová talkshow, kam si zveme osobnosti, které nás na hypotetické rovině přitahují…do postele. <br> Podcast o sexu intimitě a duchovnu. <br> Formát, jaký jste ještě neslyšeli.</p>
+                <p>Oslavujeme příběhy vtipných, silných a jedinečných žen. Oslavujeme vás.</p> <br>
+                <p> Celebrating stories of funny, strong and authentic women. Celebrating you. </p>
             </div>
-            <div class="buttons flex">
+            <!-- <div class="buttons flex">
                 <a target="_blank" href="https://podcasts.apple.com/us/podcast/chci-to/id1552635186?itsct=podcast_box&itscg=30200"><img src="~/assets/images/badge.png" alt=""></a>
                 <a target="_blank" href="https://open.spotify.com/show/0sy9xy1Bbg6kD8ACEMHfBQ?si=1V8KtPyASR2fTxZ6cmVUkA"><img src="@/assets/images/spotify.svg" alt=""></a>
                 <a target="_blank" href="https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkLnBvZGJlYW4uY29tL2NoY2l0by9mZWVkLnhtbA?sa=X&ved=0CAYQrrcFahcKEwiQkczr2-TuAhUAAAAAHQAAAAAQAQ&fbclid=IwAR3lzMyYKcEQubN6sWQ3sk9GIIpiaBXZlXbPUHrKWjLulTiXcvXYfCCOUWA"><img src="@/assets/images/google.svg" alt=""></a>
-            </div>
-            <div class="credits">
-                <ul class="flex column center">
-                <li><p>Moderují: Eliška Soukupová a Alena Doláková</p></li>
-                <!-- <li><p>MUA: Veronika Milá (Líčírna Organics)</p></li> -->
-                <li><p>Znělka: Šimon Holý, Zvuk: Kuba Ruschka</p></li>
-                <!-- <li><p>Zvuk: Kuba Ruschka</p></li> -->
-                <li><p>Fotografie: Bára Lazarczyková, MUA: Veronika Milá (Líčírna Organics)</p></li>
-                </ul>
-            </div>
+            </div> -->
             </div>
         </div>
     </div>
@@ -38,19 +29,17 @@
 <style lang="scss" scoped>
 
 .hero {
-    // background-image: url(https://ik.imagekit.io/alexborecky/Alena/chcito/background_copy_v5LgabgIFQ7I.png);
-    // background-position: center;
-    // background-size: cover;
-    // @media only screen and (max-width: 640px) {
-    //     background-size: auto 80%;
-    // }
+    background-image: url(https://ik.imagekit.io/alexborecky/Alena/Ent/bkg_NkBFGKjeQlN.jpg);
+    background-position: center;
+    background-size: cover;
     .podcast-info {
         position: relative;
         height: 100vh;
         .heading {
             img {
-                height: 240px;
+                height: 320px;
                 border-radius: 40px;
+                margin: 40px;
                 @media only screen and (max-width: 1440px) {
                     height: 160px;
                     border-radius: 16px;
@@ -75,8 +64,11 @@
                 font-size: 24px;
                 letter-spacing: 1px;
                 font-weight: 400;
-                line-height: 40px;
+                line-height: 32px;
                 text-align: center;
+                &:first-child {
+                    font-weight: 700;
+                }
                 @media only screen and (max-width: 1440px) {
                     font-size: 16px;
                     max-width: 480px;

@@ -1,5 +1,7 @@
 <template>
   <div>
+    <side-bar/> 
+    <Navigation />
     <nuxt />
   </div>
 </template>

@@ -1,11 +1,11 @@
-body {
-    background-color: black;
-}
-
 .hero {
     width: 100%;
     min-height: 100vh;
-    min-height: -webkit-fill-available;
+}
+
+.section {
+    min-width: 100%;
+    min-height: 100vh;
 }
 
 .container {

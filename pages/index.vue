@@ -1,47 +1,14 @@
 <template>
   <div class="hero">
-    <no-ssr class="desktop">
-    <full-page ref="fullpage" :options="options" id="fullpage">
-      <div class="section fp-auto-height-responsive">
-        <hero-section />
-      </div>
-      <div class="section">
-        <about-section
-          :text="home.first"
-          color="#8F01F8"
-          image1=""
-          image2="https://ik.imagekit.io/alexborecky/Alena/chcito/v9_2_lqap1mYpU.png"
-          image3=""
-          image4=""
-        />
-      </div>
-      <div class="section">
-        <about-section
-          :text="home.second"
-          color="#29B7BC"
-          image1="https://ik.imagekit.io/alexborecky/Alena/chcito/v7_2_A8JO0jf1oNIvr.png"
-          image2=""
-          image3=""
-          image4="https://ik.imagekit.io/alexborecky/Alena/chcito/v6_2_DZ8_yGbLmY.png"
-        />
-      </div>
-      <div class="section">
-        <footer-section />
-      </div>
-    </full-page>
-    </no-ssr>
-    <!-- <div class="mobile">
-      <hero-section />
-      <about-section
-          :text="home.first"
-          color="#8F01F8"
-        />
-        <about-section
-          :text="home.second"
-          color="#29B7BC"
-        />
-        <footer-section />
-    </div> -->
+      <hero-section id="home"/>
+      <Projects id="projekty" />
+      <TextSection id="inspirace"
+        title="Insipirace z USA"
+        text="Když v USA zakládala Reese Witherspoon své společnosti, které produkovaly filmy s hlavními ženskými hrdinkami, bylo to proto, že jako herečka chtěla hrát lépe napsané, zajímavé role. Zároveň však jako podnikatelka musela tušit, že jsou to právě tyto filmy, které v příštích letech oslaví nejen umělecký úspěch. V České republice tento trend ještě neexistuje. Je však nejen pro společnost prospěšné, ale i finančně výhodné být součástí této změny narativu. Jsme proto velmi vděční za investory i talenty, se kterými jsme navázali a navážeme spolupráci. "
+      />
+      <about-section id="o-nas"/>
+      <Quotes id="quotes" />
+      <footer-section />
   </div>
 </template>
 
@@ -54,12 +21,7 @@ export default {
   },
   data () {
     return {
-      options: {
-        menu: '#menu',
-        anchors: ['page1', 'page2', 'page3'],
-        sectionsColor: ['#000000', '#000', '#0798ec'],
-        responsiveHeight: 840,
-      },
+
     }
   }
 }

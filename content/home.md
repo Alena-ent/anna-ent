@@ -1,7 +1,8 @@
 ---
 
-first: 'Jsme expertky v Ničem, velvyslankyně Yoni síly na planetě Zemi a astrální sestry Daniela Nekonečnýho. 
-Jsme taky ambasadorky Vděčnosti a Věčnosti, influencerky chudých a bohatých, patronky projektu Naplácám ti řízkem, a v neposlední řadě sexuální i životní nerdky.'
+about: 'Alena Doláková je česká herečka s mezinárodní zkušeností. Diváci ji mohou znát jako Holenu z pohádky Jana Svěráka Tři Bratři nebo matku z televizní minisérie Vodník v režii Viktora Tauše. Prosadila se i v zahraničních filmech (např. britský Interlude in Prague) a seriálech (Whiskey Cavalier, ABC, Knightfall, HBO, Haunted, Netflix). Zahrála si také v divadlech v Praze, Anglii a USA (Divadlo v Celetné, Divadlo Palace, Fierce Backbone, Letter’s To Eric).
+V listopadu 2020 debutovala knihou Anna z Hollywoodu (Albatros Media), věnuje se také stand upu a píše fejetony (Glanc, Elle). Letos se představí v hlavní roli ve filmu Zrcadla ve tmě. Miroslav Helcl v pozici A&R manažera vydavatelství BrainZone spolupracoval na albech Davida Kollera, Anny K., Chinaski nebo Lucie. S Klárou Vytiskovou rozjel její sólový projekt KLARA.
+V pozici tour manažere procestoval několik evropských zemí i USA, například se Suzanne Vega, Viktorem Kraussem nebo Janet Robin. V Česku poté zastával pozici tour manažera u Anny K., Lenky Dusilové, Miro Žbirky nebo Michala Hrůzy. Mezitím se přesunul i do role manažera a booking agenta. Kromě A&R se věnuje také rozvoji umělců, hudebnímu marketingu a digitální distribuci.'
 
 second: 'Jelikož máme široké spektrum toho, co nás přitahuje, ať už po fyzický nebo psychický stránce, tak jsme hned první večer nahodily seznam 66 osobností, které chceme do pořadu pozvat. To nás dost vyděsilo, protože Alena je z katolické rodiny a uvědomila si, že je sex přeci jen nástrojem ďábla, a že měla teta Květa pravdu. Naštěstí se Eliška dříve věnovala numerologii! A brzo si uvědomila, že je diskalkulik, takže absolutně netuší, co to znamená.'
 
