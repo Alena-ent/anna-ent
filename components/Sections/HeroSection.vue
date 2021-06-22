@@ -49,7 +49,7 @@
                     border-radius: 16px;
                 }
                 @media only screen and (max-width: 550px) {
-                    height: 100px;
+                    height: 80px;
                 }
             }
             h1 {
@@ -80,6 +80,9 @@
                     line-height: 24px;
                     max-width: 320px;
                 }
+            }
+            @media (max-width: 640px) {
+                margin-top: 0px;
             }
         }
         .buttons {
