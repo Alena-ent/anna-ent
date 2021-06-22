@@ -70,7 +70,7 @@
         .contacts {
             display: flex;
             flex-wrap: wrap;
-            justify-content: space-between;
+            // justify-content: space-between;
             .contact {
                 display: flex;
                 flex-flow: column;
