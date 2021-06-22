@@ -13,6 +13,10 @@ export default
             link: '#inspirace'
         },                
         {
+            title: 'Hudební divize',
+            link: '#hudba'
+        },                
+        {
             title: 'O nás',
             link: '#o-nas'
         },                
