@@ -10,6 +10,9 @@
                     <a :href="'tel:'+contact.phone">{{contact.phone}}</a>
                 </div>
             </div>
+            <div class="legal">
+                <p>ANNA Entertainment s.r.o., IČ: 10902724, Breitfeldova 704/7, Karlín, 186 00 Praha 8</p>
+            </div>
         </div>
     </div>
 </template>
@@ -59,13 +62,22 @@
 <style lang="scss" scoped>
 
 .hero {
-    height: 60vh;
+    height: auto;
     min-height: 60vh;
     background-color: $main-beige;
     .container {
+        padding: 40px 0;
         height: 100%;
         h2 {
             margin: 40px 0;
+        }
+        .legal {
+            p {
+                font-size: 12px;
+                margin-top: 40px;
+                opacity: .4;
+            }
+            padding-bottom: 24px;
         }
         .contacts {
             display: flex;

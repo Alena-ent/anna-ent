@@ -5,7 +5,7 @@ export default {
   ** Headers of the page
   */
   head: {
-    title: 'ANNA Entertainment | Produkční společnost, umělecký management, hudební management',
+    title: 'ANNA Entertainment | Produkční společnost, umělecký management',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -13,7 +13,7 @@ export default {
       { property: 'og:type', content: 'website'},
       { property: 'og:description', content: 'Produkční společnost, umělecký management, hudební management'},
       { property: 'og:url', content: 'https://annaent.cz'},
-      { property: 'og:title', content: 'ANNA Entertainment | Produkční společnost, umělecký management, hudební management' },
+      { property: 'og:title', content: 'ANNA Entertainment | Produkční společnost, umělecký management' },
       { property: 'og:image:secure_url', content: 'https://ik.imagekit.io/alexborecky/Alena/Ent/ogImage_2kguK6a2S.jpg' },
       { property: 'og:image', content: 'https://ik.imagekit.io/alexborecky/Alena/Ent/ogImage_2kguK6a2S.jpg' },
       { property: 'og:image:type', content: 'image/png' },

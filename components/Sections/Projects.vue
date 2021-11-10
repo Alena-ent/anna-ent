@@ -46,8 +46,12 @@
 .hero {
     height: auto;
     background-color: #D0523B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     .container {
-        height: 100vh;
+        padding: 80px 0;
+        height: auto;
         display: flex;
         justify-content: center;
         flex-flow: column;
