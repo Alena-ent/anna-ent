@@ -1,7 +1,7 @@
 <template>
     <div class="hero flex column">
         <div class="container flex center-column-left">
-            <h2>Tým a kontakty</h2>
+            <h2>Kontakty</h2>
             <div class="contacts">
                 <div class="contact" v-for="contact in contacts" :key="contact.name">
                     <h3>{{contact.name}}</h3>
@@ -35,24 +35,24 @@
                         phone: '+420 737 947 422',
                         role: 'Spoluzakladatel'
                     },
-                    {
-                        name: 'Lenka Olšanová',
-                        email: 'lenka@annaent.com',
-                        phone: null,
-                        role: 'Kreativní producentka Mighty Women'
-                    },
-                    {
-                        name: 'Eliška Soukupová',
-                        email: null,
-                        phone: null,
-                        role: 'Kreativní producentka CHCI TO'
-                    },
-                    {
-                        name: 'Dominika Hašková',
-                        email: null,
-                        phone: null,
-                        role: 'Kreativní asistentka'
-                    },
+                    // {
+                    //     name: 'Lenka Olšanová',
+                    //     email: 'lenka@annaent.com',
+                    //     phone: null,
+                    //     role: 'Kreativní producentka Mighty Women'
+                    // },
+                    // {
+                    //     name: 'Eliška Soukupová',
+                    //     email: null,
+                    //     phone: null,
+                    //     role: 'Kreativní producentka CHCI TO'
+                    // },
+                    // {
+                    //     name: 'Dominika Hašková',
+                    //     email: null,
+                    //     phone: null,
+                    //     role: 'Kreativní asistentka'
+                    // },
                 ]
             }
         }
@@ -63,7 +63,7 @@
 
 .hero {
     height: auto;
-    min-height: 60vh;
+    min-height: 40vh;
     background-color: $main-beige;
     .container {
         padding: 40px 0;

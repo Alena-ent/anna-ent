@@ -19,20 +19,20 @@
             return {
                 projects: [
                     {
-                        title: 'Mighty Women',
-                        description: 'Seriál v Angličtině o čtyřech ženách v businessu, které se přihlásí do lehce absurdní televizní soutěže. Tématem seriálu jsou ambice a ženské přátelství. Je to takový Sex ve městě vyprávěný Boratem, zkrátka satirický popis feminismu v prostředí mezinárodní Prahy. Kreativní producentka Lenka Olšanová oslovila herečky Martinu Babišovou, Natálii Golovchenko a Alenu Dolákovou, aby se na seriálu podílely i scénáristicky. Režie se ujme Jakub Machala, kamery Miloslav Holman. Prvním koproducentem je Cinestore.'
+                        title: 'I Want It',
+                        description: 'First project of ANNA Entertainment was a sex positive feminist podcast hosted by comedians Alena Dolakova and Eliska Soukupova, experts on Nothing and astral sisters of God of Pleasure. A podcast from bed, where guests that are sexy in various ways (mostly intellectually and spiritually) are invited. Journalists, directors, activists and other artists and influencers talked about taboo themes with humor that was much needed during the pandemic. An attempt to be the Czech Boccacios of the 2021 plague.'
                     },
                     {
-                        title: 'Chci To',
-                        description: 'Podcast o sexu, intimitě a duchovnu moderují komičky Alena Doláková a Eliška Soukupová. Tyto astrální sestry Daniela Nekonečnho a Expertky v Ničem si zvou do postele osobnosti, co je na hypotetické rovině přitahují. Humornou formou probírají tabu témata. Mezi hosty se již objevil Filip Titlbach, Gabi Heclová, Johanna Nejedlová, Adam Mišík či Lilia Khousnoutdinová.'
+                        title: 'Anna of Hollywood',
+                        description: 'Miss Dolakova’s book debut published by Albatros Media gave a name to her company. When launching both the company and the book, ANNA Entertainment raised 200K CZK for Konsent, a foundation fighting sexual violence in the Czech Republic. Stay tuned for an audio book.'
                     },
                     {
-                        title: 'ANNA Z HOLLYWOODU',
-                        description: 'První kniha Aleny Dolákové, která vyšla v Albatrosu v roce 2020, otevírá humornou formou skrytá ženská témata. Podle hlavní postavy této knihy se pojmenovala společnost A N N A Entertainment a chystá se audiokniha.'
+                        title: 'WOMAN OF THE YEAR',
+                        description: 'A reality show! Apply soon. (2023)'
                     },
                     {
-                        title: 'ANNA GOES TO HOLLYWOOD',
-                        description: 'Film inspirovaný knihou Anna z Hollywoodu se připravuje pro mezinárodní koprodukci. Příběh o (ne)milostném trojúhelníku Anny, jejího těla a společnosti.'
+                        title: 'ANNA OF HOLLYWOOD',
+                        description: 'A dark comedy. Maybe Hollywood is just like Eastern Europe. Maybe it’s time we embrace who we truly are. Healing is facing the pain and that can be really hilarious. (2023)'
                     },
 
                 ]
